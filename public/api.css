@@ -1,0 +1,65 @@
+.large-padding{
+  padding: 10px 15px;
+}
+.black{
+  background-color: #222;
+}
+.white-text{
+  color: white;
+}
+.p_left{
+  float: left;
+}
+.right-space{
+  margin-right: 1em;
+}
+.left-space{
+  margin-right: 1em;
+}
+
+.gold-text{
+  color: goldenrod;
+}
+.golden-text{
+  font-size: 30px;
+  color: goldenrod;
+  margin: 0;
+  padding-top: 5px;
+}
+.container{
+  width: 100%;
+  margin-top: 1em;
+  text-align: center;
+}
+.letter{
+  font-size: 20px;
+}
+.letter-principal{
+  font-size: 25px;
+}
+.inline{
+  display: inline-block;
+  margin:30px 20px 20px 30px;
+  text-align: center;
+}
+nav{
+  text-align: right;
+}
+nav li{
+display: inline-block;
+margin-right: 1em;
+}
+nav li a{
+color:white;
+}
+nav li a:hover{
+  color: white;
+}
+table tr td{
+  border:solid #222 2px;
+}
+h2{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 1opx;
+}

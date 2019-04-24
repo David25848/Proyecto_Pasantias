@@ -1,0 +1,51 @@
+extends ./layout.jade
+block contenido
+  pre #{currencies}
+  //- for currency in currencies
+  //-   p #{currency.symbol}
+  pre #{btc}
+   
+  //- for currency in currencies
+  //-   if currency["symbol"] == "ETHBTC"
+  //-     div(class="inline black gold-text ")
+  //-       h2(class="letter-principal") #{currency.symbol +" "+ currency.priceChange}
+  //-       //- h2 #{currency.priceChange}
+  //-   if currency["symbol"] == "BNBBTC"
+  //-     div(class="inline black gold-text")
+  //-       h2(class="letter-principal") #{currency.symbol +" "+ currency.priceChange}
+  //-   if currency["symbol"] == "LTCBTC"
+  //-     div(class="inline black gold-text")
+  //-       h2(class="letter-principal") #{currency.symbol +" "+ currency.priceChange}
+  //-   if currency["symbol"] == "BTCUSDT"
+  //-     div(class="inline black gold-text")
+  //-       h2(class="letter-principal") #{currency.symbol +" "+ currency.priceChange}
+      
+  //-  table(class="container")
+    
+  //-     tr(class="right-space")
+
+  //-       td(class="letter black white-text") Symbol 
+  //-       td(class="letter black white-text") Price Change
+  //-       td(class="letter black white-text") weightedAvgPrice  
+  //-       td(class="letter black white-text") prevClosePrice  
+  //-       td(class="letter black white-text") last Price
+  //-       td(class="letter black white-text") open Price
+  //-       td(class="letter black white-text") high Price
+  //-       td(class="letter black white-text") low Price
+  //-     for currency in currencies
+       
+  //-      tr
+     
+  //-       td #{currency.symbol} 
+  //-       td #{currency.priceChange} 
+  //-       td #{currency.weightedAvgPrice}
+  //-       td #{currency.prevClosePrice}
+  //-       td #{currency.lastPrice}
+  //-       td #{currency.openPrice}
+  //-       td #{currency.highPrice}
+  //-       td #{currency.lowPrice}
+    
+     
+    
+  //-  h1  #{currency.symbol}
+  //-  h1  #{currency.priceChange} 
